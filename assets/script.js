@@ -41,7 +41,9 @@ function addTestimonial(idx) {
 		author.classList.remove('selected');
 	});
 }
+$('.counter').addClass('animated fadeInDownBig');
 
-
-  
-odoo.default({ el:'.js-odoo', from: 'NOVEMBER16', to: 'CODEVEMBER', animationDelay: 1000 });
+    $('.counter').counterUp({
+      delay: 10,
+      time: 2000 
+    });
