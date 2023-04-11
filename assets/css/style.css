@@ -251,7 +251,10 @@ body {
 /*--------------------------------------------------------------
 # Stats
 --------------------------------------------------------------*/
-@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+.counter {
+  animation-duration: 1s;
+  animation-delay: 0s;
+}
 
 /*--------------------------------------------------------------
 # customer Review
