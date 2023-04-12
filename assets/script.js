@@ -20,7 +20,13 @@ $(document).ready(function(){
 	slidesToScroll:1
 	});
   };
-
+/*------------------------------------ touch-------------------------------------*/
+function onlyNumber(evt) {
+	var ASCIICode = (evt.which) ? evt.which : evt.keyCode
+	if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57))
+		return false;
+	return true;
+  }
   /*------------------- customer review ------------------
   const authorsEl = document.querySelectorAll('.author');
 const container = document.querySelector('.testimonials-container');
