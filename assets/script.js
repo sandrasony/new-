@@ -1,3 +1,4 @@
+/*------------------- carousel ------------------*/
 $(document).ready(function(){
 	$('.carousel').slick({
 	slidesToShow: 1,
@@ -8,6 +9,19 @@ $(document).ready(function(){
 	arrows:false
 	});
   });
+
+  /*------------------- Client Testimonials ------------------*/
+  window.onload=function(){
+	$('.slider').slick({
+	autoplay:true,
+	autoplaySpeed:2200,
+	arrows:false,
+	slidesToShow:1,
+	slidesToScroll:1
+	});
+  };
+
+  /*------------------- customer review ------------------
   const authorsEl = document.querySelectorAll('.author');
 const container = document.querySelector('.testimonials-container');
 const textEl = document.querySelector('.testtext');
@@ -46,4 +60,4 @@ $('.counter').addClass('animated fadeInDownBig');
     $('.counter').counterUp({
       delay: 10,
       time: 2000 
-    });
+    });*/
