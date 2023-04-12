@@ -24,30 +24,23 @@ body {
 
 /*------------------- Banner -------------------------*/
 .banner-image {
-  background-image: url("../images/banner.png");
+  background-image: url("../images/newbanner.svg");
+  height: 45rem; 
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   display: flex;
-  height: 35rem;
 }
-
-.banner .lorem-text {
-  width: 50%;
-}
-
-.tservices {
-  border: 0;
-  background-color: orange;
-}
-
-.tcontact:hover {
-  background-color: #454444;
-  color: white;
-}
-
-.tservices:hover {
-  background-color: #4391e5;
-  color: black;
+.banner-text {
+    font-weight: 600;
+    font-size:5vw;
+    line-height: 5rem;
+    letter-spacing: 1em;
+    text-transform: uppercase;
+    color: #E9EBF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*--------------------------------------------------------------
@@ -249,8 +242,35 @@ body {
 }
 
 /*--------------------------------------------------------------
-# Stats
+# Client Testimonials
 --------------------------------------------------------------*/
+#clienttestimonials{
+text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.slider {
+  margin: 1.25rem auto;
+  text-align: center;
+  padding: 1.25rem;
+}
+.slider .parent-slide {
+  padding: 0.938rem;
+}
+.slider p{
+  color: #565656;
+  font-family: 'Garamond';
+font-style: normal;
+font-weight: 400;
+font-size:1.25rem;
+line-height: 100%;
+}
+
+/*--------------------------------------------------------------
+# Stats
+--------------------------------------------------------------
 .counter {
   animation-duration: 1s;
   animation-delay: 0s;
@@ -258,7 +278,7 @@ body {
 
 /*--------------------------------------------------------------
 # customer Review
---------------------------------------------------------------*/
+--------------------------------------------------------------
 .cr1 {
   width: 40%;
   background-color: black;
