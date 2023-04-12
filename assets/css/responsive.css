@@ -28,17 +28,6 @@
   }
 
   /*------------------- Banner -------------------------*/
-  .banner .lorem-text {
-    width: auto;
-  }
-
-  .tcontact,
-  .tservices {
-    padding: 0;
-    width: 100%;
-    font-size: 0.9rem;
-  }
-
   /*------------------- Customer Reviews -------------------------*/
   .cr1,
   .cr2 {
@@ -153,7 +142,7 @@
     display: block;
   }
 
-  /*----------------Stats--------------------------------------*/
+  /*----------------Stats--------------------------------------
   #stats {
     padding: 2%;
     overflow: hidden;
