@@ -254,7 +254,7 @@ text-align: center;
 .slider {
   margin: 1.25rem auto;
   text-align: center;
-  padding: 1.25rem;
+  padding: 1.5rem;
 }
 .slider .parent-slide {
   padding: 0.938rem;
@@ -267,7 +267,19 @@ font-weight: 400;
 font-size:1.25rem;
 line-height: 100%;
 }
+.fa{
+  font-size:2.5rem;
+  color:#E5E5E5;
+}
+/*--------------------------------------------------------------
+# getintouch
+--------------------------------------------------------------*/
 
+.touch {
+  background-image: url("../images/getintouch.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 /*--------------------------------------------------------------
 # Stats
 --------------------------------------------------------------
@@ -335,7 +347,7 @@ line-height: 100%;
 
 /*--------------------------------------------------------------
 # let's get in touch
---------------------------------------------------------------*/
+--------------------------------------------------------------*
 #touch {
   justify-items: center;
 }
