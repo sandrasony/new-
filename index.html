@@ -88,7 +88,7 @@
   <!-------------------------------------------------------- About Us/ Who we are --------------------------------->
   <div id="about" class="img-move-wrapper m-5">
     <img src="assets/images/dot.png" class="dott img-move  img-fluid w-auto " style="z-index: -1;">
-    <img src="assets/images/about.png" class="img-move img-move-1 img-fluid" style="z-index: -1;margin:1%">
+    <img src="assets/images/about.png" class="img-move img-move-1 img-fluid rounded" style="z-index: -1;margin:1%">
     <div class="container">
       <div class="david col-md-4 img-move-2">
         <h1><span style="color:orange">Who </span><span style="color:#333;">We Are</span></h1>
@@ -150,12 +150,12 @@
       <div class="float-child">
         <div class="rent">
           <h3>Renting</h3>
-          <p><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit scelerisque aliquam vel sapien. Pharetra,
+          <p style="color: #565656;"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit scelerisque aliquam vel sapien. Pharetra,
             tortor ultrices nunc integer enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br></p>
           <b>Read More<img src="assets/images/arrow.png" class="img-fluid"><br></b>
         </div>
       </div>
-      <button style="background-color: #333;color: white;  padding: 0.75rem 2.375rem;">VIEW ALL</button>
+      <button class="rounded-pill" style="background-color: #333;color: white;  padding: 0.75rem 2.375rem;">VIEW ALL</button>
     </div>
   </section>
 
@@ -218,7 +218,7 @@
     <div class="wrapper">
       <div class="carousel">
         <div class="hero">
-          <img src="assets/images/1.png">
+          <img src="assets/images/1.png" class="rounded">
           <div class="text">
             <h1>Lorem Ipsum</h1><br>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit scelerisque aliquam vel sapien. Pharetra,
@@ -228,7 +228,7 @@
         </div>
 
         <div class="hero">
-          <img src="assets/images/2.png">
+          <img src="assets/images/2.png" class="rounded">
           <div class="text">
             <h1>Lorem Ipsum</h1><br>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit scelerisque aliquam vel sapien. Pharetra,
@@ -238,7 +238,7 @@
         </div>
 
         <div class="hero">
-          <img src="assets/images/1.png">
+          <img src="assets/images/1.png" class="rounded">
           <div class="text">
             <h1>Lorem Ipsum</h1><br>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit scelerisque aliquam vel sapien. Pharetra,
@@ -272,11 +272,33 @@
       </div>
     </div>
   </section>
-  
- <!--------------------------------------------------------- touch ---------------------------------------------------->
+
+
+  <section id="touch">
+      <div class="parent">
+      <img class="icon" alt="" src="assets/images/getintouch.svg" />
+      <div class="group-child">
+        <h1 style="text-align: center;">LET'S GET IN <span style="color:#F9A61F;">TOUCH</span></h1>
+          <form class="form-inline justify-content-center">
+            <div class="row w-100 p-3">
+                <div class="col col-xs-4">
+                    <input class="form-control" type="text" placeholder="Name" required><br>
+                    <input class="form-control" type="text" placeholder="Email" required><br>
+                    <input class="form-control" onkeypress="return onlyNumber(event)" type="text" minlength="10"
+                        maxlength="10" placeholder="Phone" required><br>
+                    <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea><br>
+                    <button class="btn btn-primary w-100 py-3 rounded" type="submit"
+                      style="background-color:black;border-radius: 5%;">SUBMIT</button>
+                    </div>
+            </div>
+        </form>
+      </div>
+        </div>
+  </section>
+ <!--------------------------------------------------------- touch ----------------------------------------------------
   <section id="getintouch">
     <div class="container-fluid touch">
-      <div class="col-md-4 col-sm-6 col-xs-12" >
+      <div class="col-md-4 col-sm-6 col-xs-12 bg-white">
           <h1 style="text-align: center;">LET'S GET IN <span style="color:#F9A61F;">TOUCH</span></h1>
           <form class="form-inline justify-content-center">
             <div class="row w-100 p-3">
@@ -285,16 +307,16 @@
                     <input class="form-control" type="text" placeholder="Email" required><br>
                     <input class="form-control" onkeypress="return onlyNumber(event)" type="text" minlength="10"
                         maxlength="10" placeholder="Phone" required><br>
-                    <textarea class="form-control" rows="4" placeholder="Message" required></textarea><br>
-                    <button class="btn btn-primary w-100 py-3" type="submit"
-                      style="background-color:black;">SUBMIT</button>
+                    <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea><br>
+                    <button class="btn btn-primary w-100 py-3 rounded" type="submit"
+                      style="background-color:black;border-radius: 5%;">SUBMIT</button>
                     </div>
             </div>
         </form>
         </div>
       </div>
   </div>
-</section>
+</section-->
   <!---------------------------------------------------- Stats Section -----------------------------------------------
   <section id="stats" style="background-color: orange;padding-top: 4%;padding-bottom: 4%;">
     <div class="container d-flex justify-content-around">
