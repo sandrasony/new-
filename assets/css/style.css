@@ -52,6 +52,7 @@ body {
   margin-top: 5%;
   width: 50%;
   background-color: #fff;
+  border-radius: 1.5rem;
 }
 
 .img-move-wrapper {
@@ -156,11 +157,14 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   padding: 5%;
+  border-radius: 3%;
 }
 
 .rent {
+  background-color:#fff;
   padding: 5%;
-  border: 0.063rem solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 25px 45px rgba(8, 82, 145, 0.1);
+  border-radius: 3%;
 }
 
 .servicetext {
@@ -210,6 +214,7 @@ body {
   width: 100%;
   padding-left: 3%;
   height: 90vh;
+  border-radius: 3%;
 }
 
 #projects .hero {
@@ -275,6 +280,36 @@ line-height: 100%;
 # getintouch
 --------------------------------------------------------------*/
 
+.parent {
+  position: relative;
+  height:45rem;
+}
+.icon {
+  position: absolute;
+  top: 52px;
+  left: 0;
+width: 100%;
+  height: auto;
+  object-fit: cover;
+}.group-child {
+  position: absolute;
+padding-top: 5rem;
+  left: 694.13px;
+  border-radius: var(--br-3xs) var(--br-3xs) 0 0;
+  background-color: white;
+  box-shadow: 0-4px 45px rgba(0, 0, 0, 0.05);
+  width:40%;
+  height:46rem;
+}
+/*--------------------------------------------------------------
+# getintouch
+--------------------------------------------------------------*
+.container2 {
+  background-image: url("../images/getintouch.svg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
 .touch {
   background-image: url("../images/getintouch.svg");
   background-size: cover;
