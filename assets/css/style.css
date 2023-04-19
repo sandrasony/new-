@@ -25,22 +25,23 @@ body {
 /*------------------- Banner -------------------------*/
 .banner-image {
   background-image: url("../images/newbanner.svg");
-  height: 45rem; 
+  height: 45rem;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
 }
+
 .banner-text {
-    font-weight: 600;
-    font-size:5vw;
-    line-height: 5rem;
-    letter-spacing: 1em;
-    text-transform: uppercase;
-    color: #E9EBF8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  font-weight: 600;
+  font-size: 5vw;
+  line-height: 5rem;
+  letter-spacing: 1em;
+  text-transform: uppercase;
+  color: #E9EBF8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*--------------------------------------------------------------
@@ -161,7 +162,7 @@ body {
 }
 
 .rent {
-  background-color:#fff;
+  background-color: #fff;
   padding: 5%;
   box-shadow: 0 25px 45px rgba(8, 82, 145, 0.1);
   border-radius: 3%;
@@ -249,58 +250,68 @@ body {
 /*--------------------------------------------------------------
 # Client Testimonials
 --------------------------------------------------------------*/
-#clienttestimonials{
-text-align: center;
+#clienttestimonials {
+  text-align: center;
   justify-content: center;
   align-items: center;
   padding-top: 5%;
   padding-bottom: 5%;
 }
+
 .slider {
   margin: 1.25rem auto;
   text-align: center;
   padding: 1.5rem;
 }
+
 .slider .parent-slide {
   padding: 0.938rem;
 }
-.slider p{
+
+.slider p {
   color: #565656;
   font-family: 'Garamond';
-font-style: normal;
-font-weight: 400;
-font-size:1.25rem;
-line-height: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 100%;
 }
-.fa{
-  font-size:2.5rem;
-  color:#E5E5E5;
+
+.fa {
+  font-size: 2.5rem;
+  color: #E5E5E5;
 }
+
 /*--------------------------------------------------------------
 # getintouch
 --------------------------------------------------------------*/
 
 .parent {
-  position: relative;
-  height:45rem;
+  position:relative;
+  height: 45rem;
 }
+
 .icon {
   position: absolute;
   top: 52px;
   left: 0;
-width: 100%;
+  width: 100%;
   height: auto;
   object-fit: cover;
-}.group-child {
+}
+
+.group-child {
   position: absolute;
-padding-top: 5rem;
+  padding-top: 5rem;
   left: 694.13px;
   border-radius: var(--br-3xs) var(--br-3xs) 0 0;
   background-color: white;
   box-shadow: 0-4px 45px rgba(0, 0, 0, 0.05);
-  width:40%;
-  height:46rem;
+  width: 50%;
+  height: 46rem;
+  padding: 3%;
 }
+
 /*--------------------------------------------------------------
 # getintouch
 --------------------------------------------------------------*
