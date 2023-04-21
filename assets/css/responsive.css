@@ -1,0 +1,254 @@
+/*--------------------- Top bar  -----------------------*/
+@media only screen and (max-width: 62rem) {
+  .topnav {
+    flex-direction: row !important;
+    justify-content: center !important;
+  }
+
+  .topnav .nav-item {
+    display: inline-block;
+    justify-self: center;
+  }
+
+  .topnav .navbar-nav {
+    display: block;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  /*----------------------- Nav bar  -------------------*/
+  .navi .navbar {
+    display: flex;
+    display: block;
+  }
+
+  .navbar-toggler {
+    float: right;
+    text-align: center;
+  }
+
+  /*------------------- Banner -------------------------*/
+  /*------------------- Customer Reviews -------------------------*/
+  .cr1,
+  .cr2 {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  /*------------------- Touch -------------------------*/
+  .touch1,
+  .touch2 {
+    display: block;
+    width: 100%;
+  }
+
+  .touch2 {
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 37.5rem) {
+
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-size: 1rem;
+  }
+
+  .lorem {
+    font-size: 1.5rem;
+    font-weight: 600;
+    justify-content: center;
+  }
+
+  .lorem-text {
+    font-size: 1rem;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  /*------------------- Banner -------------------------*/
+  .tcontact,
+  .tservices {
+    padding: 0;
+    width: 100%;
+    font-size: 0.7rem;
+  }
+
+  /*-------------About----------------------------------------------------------*/
+  .dott {
+    display: none;
+  }
+
+  #about {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .img-move-1 {
+    left: 0;
+    width: 80%;
+    margin: 0;
+    padding: 0%;
+  }
+
+  .img-move-2 {
+    width: 80%;
+  }
+
+  /*------------------- Passsionate -------------------------*/
+  .passion {
+    padding-left: 3%;
+    width: 100%;
+  }
+
+  #vCarousel .lorem {
+    font-size: 2rem;
+  }
+
+  #vCarousel .lorem-text {
+    padding-right: 10%;
+    padding-top: 2%;
+    font-size: 1rem;
+  }
+
+  /*-----------------Services-------------------------------------*/
+  .float-child {
+    width: 100%;
+    float: left;
+    padding: 5%;
+    border: 0.125rem;
+  }
+
+  .servicetext {
+    margin: 2%;
+  }
+
+  /*---------------Why Choose Us-------------------------------------*/
+  .col {
+    display: block;
+    width: 100%;
+  }
+
+  /*----------------projects--------------------------------------*/
+  #projects .text {
+    display: none;
+  }
+  #projects .slick-slide img {
+    width: 100%;
+    display: block;
+  }
+
+  /*----------------Stats--------------------------------------
+  #stats {
+    padding: 2%;
+    overflow: hidden;
+  }
+
+  .sattext {
+    font-size: 0.8rem;
+  }
+
+  /*--------------customer review--------------------------------------*/
+  .cr1,
+  .cr2 {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+
+  .close {
+    padding: 3%;
+  }
+
+  .cr2 {
+    text-align: center;
+  }
+
+  #customer-reviews .text {
+    text-align: center;
+    padding: 1%;
+    margin: 0 auto;
+  }
+
+  .authors-container {
+    width: 100%;
+    padding: 0%;
+  }
+
+  /*--------------let's get in touch/form--------------------------------------*/
+  .touch1,
+  .touch2 {
+    display: block;
+    width: 100%;
+  }
+
+  .touch2 {
+    text-align: left;
+  }
+
+  /*------------------- footer -------------------------*/
+  .footlog {
+    text-align: center;
+  }
+
+  .sub-footer {
+    text-align: center;
+  }
+
+  [class^="fab fa-"] {
+    font-size: 1.5rem;
+    display: flexbox;
+    padding: 2%;
+    float: none;
+  }
+}
+
+/* On tablets and up */
+@media (min-width:48rem) {
+
+  .img-move {
+    position: absolute;
+    width: 55%;
+  }
+
+  .img-move-1 {
+    right: 0;
+    top: 0;
+  }
+
+  .img-move-2 {
+    left: 0;
+  }
+
+  .servicetext {
+    margin-left: 24%;
+    margin-right: 24%;
+  }
+}
+
+@media screen and (max-width: 48rem) and (min-width: 37.5rem) {
+
+  .img-move {
+    position: absolute;
+    width: 55%;
+  }
+
+  .img-move-1 {
+    right: 0;
+    top: 0;
+  }
+
+  .img-move-2 {
+    left: 0;
+  }
+
+  #projects .text {
+    width: auto;
+  }
+
+}
