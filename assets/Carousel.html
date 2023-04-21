@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Work+Sans');
+    @import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
+
+    body {
+      margin: 0;
+      font-family: "Work Sans", 'Proxima Nova';
+    }
+
+    .lorem {
+      font-size: 4.2rem;
+      color: white;
+    }
+
+    .lorem-text {
+      line-height: 150%;
+      font-size: 1rem;
+      color: rgb(230, 224, 224);
+      width: 50%;
+    }
+
+    .passion {
+      position: absolute;
+      top: 35%;
+      padding-left: 3%;
+    }
+
+    .myslider .item {
+      width: 100%;
+      position: relative;
+    }
+
+    .myslider .item.a,
+    .item.b,
+    .item.c {
+      background-image: url('assets/images/passionate.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .myslider .item h2 {
+      color: #fff;
+      font-size: 8vw;
+      font-weight: 400;
+      line-height: 1.1;
+      text-align: center;
+      margin: 0 auto;
+      max-width: 80%;
+      text-transform: uppercase;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0;
+      right: 0;
+    }
+
+    .slick-dots {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 2%;
+    }
+
+    .slick-dots li {
+      list-style: none;
+      margin: 0.938rem 0;
+    }
+
+    .slick-dots button {
+      border-radius: 50%;
+      width: 1.25rem;
+      height: 1.25rem;
+      border: none;
+      background-color: gray;
+      text-indent: -624.938rem;
+      outline: 0;
+    }
+
+    .slick-dots button:hover {
+      background-color: orange;
+    }
+
+    .slick-slide {
+      height: 100vh !important;
+    }
+
+    .slick-slider {
+      position: relative;
+      display: block;
+      box-sizing: border-box;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      touch-action: pan-y;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .slick-list {
+      position: relative;
+      overflow: hidden;
+      display: block;
+      margin: 0;
+      padding: 0;
+    }
+
+    .slick-list:focus {
+      outline: none;
+    }
+
+    .slick-list.dragging {
+      cursor: pointer;
+      cursor: hand;
+    }
+
+    .slick-slider .slick-track,
+    .slick-slider .slick-list {
+      transform: translate3d(0, 0, 0);
+    }
+
+    .slick-track {
+      position: relative;
+      left: 0;
+      top: 0;
+      display: block;
+    }
+
+    .slick-track:before,
+    .slick-track:after {
+      content: "";
+      display: table;
+    }
+
+    .slick-track:after {
+      clear: both;
+    }
+
+    .slick-loading .slick-track {
+      visibility: hidden;
+    }
+
+    .slick-slide {
+      float: left;
+      height: 100%;
+      min-height: 1px;
+      display: none;
+    }
+
+    [dir=rtl] .slick-slide {
+      float: right;
+    }
+
+    .slick-slide img {
+      display: block;
+    }
+
+    .slick-slide.slick-loading img {
+      display: none;
+    }
+
+    .slick-slide.dragging img {
+      pointer-events: none;
+    }
+
+    .slick-initialized .slick-slide {
+      display: block;
+    }
+
+    .slick-loading .slick-slide {
+      visibility: hidden;
+    }
+
+    .slick-vertical .slick-slide {
+      display: block;
+      height: auto;
+      border: 1px solid transparent;
+    }
+
+    .slick-arrow.slick-hidden {
+      display: none;
+    }
+
+    @media only screen and (max-width: 37.5rem) {
+      .passion {
+        width: 90%;
+        top: 10%;
+        padding-right: 5%;
+        justify-items: center;
+        align-items: center;
+      }
+
+      .lorem {
+        font-size: 2rem;
+        top: 0;
+        padding: 3%;
+      }
+
+      .lorem-text {
+        width: 90%;
+        padding: 3%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="myslider">
+    <div class="item a">
+      <div class="passion">
+        <b class="lorem"><span>Passionate</span><span style="color:orange">.</span></b><br>
+        <div class="lorem-text pt-2" style="opacity: 85%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+          scelerisque aliquam vel sapien. Pharetra, tortor ultrices nunc integer enim. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Sit scelerisque aliquam vel sapien.
+        </div>
+      </div>
+    </div>
+    <div class="item b">
+      <div class="passion">
+        <b class="lorem"><span>Passionate</span><span style="color:orange">.</span></b><br>
+        <div class="lorem-text pt-2" style="opacity: 85%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+          scelerisque aliquam vel sapien. Pharetra, tortor ultrices nunc integer enim. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Sit scelerisque aliquam vel sapien.
+        </div>
+      </div>
+    </div>
+    <div class="item c">
+      <div class="passion">
+        <b class="lorem"><span>Passionate</span><span style="color:orange">.</span></b><br>
+        <div class="lorem-text pt-2" style="opacity: 85%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+          scelerisque aliquam vel sapien. Pharetra, tortor ultrices nunc integer enim. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Sit scelerisque aliquam vel sapien.
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js'></script>
+  <script>
+    $('.myslider').slick({
+      slidesToScroll: 1,
+      arrows: false,
+      dots: true,
+      vertical: true,
+      verticalSwiping: true,
+      autoplay: true,
+      autoplaySpeed: 1000,
+    });
+  </script>
+
+</body>
+
+</html>
