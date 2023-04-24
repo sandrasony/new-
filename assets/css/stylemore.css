@@ -1,0 +1,37 @@
+a {
+  color: #080806;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #d78314;
+  text-decoration: none;
+}
+
+/*------------------- Banner -------------------------*/
+.tcontact,
+.tservices {
+  font-weight: 600;
+  color: white;
+  border: 0.06rem solid white;
+  background-color: transparent;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 2.3rem;
+}
+
+.tservices {
+  border: 0;
+  background-color: orange;
+}
+
+.tcontact:hover {
+  background-color: #454444;
+  color: white;
+}
+
+.tservices:hover {
+  background-color: #4391e5;
+  color: black;
+}
